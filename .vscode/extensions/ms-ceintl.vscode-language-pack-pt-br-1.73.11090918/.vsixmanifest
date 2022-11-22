@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="vscode-language-pack-pt-BR" Version="1.73.11090918" Publisher="MS-CEINTL" />
+			<DisplayName>Portuguese (Brazil) Language Pack for Visual Studio Code</DisplayName>
+			<Description xml:space="preserve">Language pack extension for Portuguese (Brazil)</Description>
+			<Tags>lp-pt-br,__lp_vscode,__lp-pt-br_vscode,__lp_bat,__lp-pt-br_bat,__lp_clojure,__lp-pt-br_clojure,__lp_coffeescript,__lp-pt-br_coffeescript,__lp_configuration-editing,__lp-pt-br_configuration-editing,__lp_cpp,__lp-pt-br_cpp,__lp_csharp,__lp-pt-br_csharp,__lp_css-language-features,__lp-pt-br_css-language-features,__lp_css,__lp-pt-br_css,__lp_dart,__lp-pt-br_dart,__lp_debug-auto-launch,__lp-pt-br_debug-auto-launch,__lp_debug-server-ready,__lp-pt-br_debug-server-ready,__lp_diff,__lp-pt-br_diff,__lp_docker,__lp-pt-br_docker,__lp_emmet,__lp-pt-br_emmet,__lp_extension-editing,__lp-pt-br_extension-editing,__lp_fsharp,__lp-pt-br_fsharp,__lp_git-base,__lp-pt-br_git-base,__lp_git,__lp-pt-br_git,__lp_github-authentication,__lp-pt-br_github-authentication,__lp_github,__lp-pt-br_github,__lp_go,__lp-pt-br_go,__lp_groovy,__lp-pt-br_groovy,__lp_grunt,__lp-pt-br_grunt,__lp_gulp,__lp-pt-br_gulp,__lp_handlebars,__lp-pt-br_handlebars,__lp_hlsl,__lp-pt-br_hlsl,__lp_html-language-features,__lp-pt-br_html-language-features,__lp_html,__lp-pt-br_html,__lp_image-preview,__lp-pt-br_image-preview,__lp_ini,__lp-pt-br_ini,__lp_ipynb,__lp-pt-br_ipynb,__lp_jake,__lp-pt-br_jake,__lp_java,__lp-pt-br_java,__lp_javascript,__lp-pt-br_javascript,__lp_json-language-features,__lp-pt-br_json-language-features,__lp_json,__lp-pt-br_json,__lp_julia,__lp-pt-br_julia,__lp_latex,__lp-pt-br_latex,__lp_less,__lp-pt-br_less,__lp_log,__lp-pt-br_log,__lp_lua,__lp-pt-br_lua,__lp_make,__lp-pt-br_make,__lp_markdown-basics,__lp-pt-br_markdown-basics,__lp_markdown-language-features,__lp-pt-br_markdown-language-features,__lp_markdown-math,__lp-pt-br_markdown-math,__lp_media-preview,__lp-pt-br_media-preview,__lp_merge-conflict,__lp-pt-br_merge-conflict,__lp_microsoft-authentication,__lp-pt-br_microsoft-authentication,__lp_ms-vscode.js-debug,__lp-pt-br_ms-vscode.js-debug,__lp_notebook-renderers,__lp-pt-br_notebook-renderers,__lp_npm,__lp-pt-br_npm,__lp_objective-c,__lp-pt-br_objective-c,__lp_perl,__lp-pt-br_perl,__lp_php-language-features,__lp-pt-br_php-language-features,__lp_php,__lp-pt-br_php,__lp_powershell,__lp-pt-br_powershell,__lp_pug,__lp-pt-br_pug,__lp_python,__lp-pt-br_python,__lp_r,__lp-pt-br_r,__lp_razor,__lp-pt-br_razor,__lp_references-view,__lp-pt-br_references-view,__lp_restructuredtext,__lp-pt-br_restructuredtext,__lp_ruby,__lp-pt-br_ruby,__lp_rust,__lp-pt-br_rust,__lp_scss,__lp-pt-br_scss,__lp_search-result,__lp-pt-br_search-result,__lp_shaderlab,__lp-pt-br_shaderlab,__lp_shellscript,__lp-pt-br_shellscript,__lp_simple-browser,__lp-pt-br_simple-browser,__lp_sql,__lp-pt-br_sql,__lp_swift,__lp-pt-br_swift,__lp_theme-abyss,__lp-pt-br_theme-abyss,__lp_theme-defaults,__lp-pt-br_theme-defaults,__lp_theme-kimbie-dark,__lp-pt-br_theme-kimbie-dark,__lp_theme-monokai-dimmed,__lp-pt-br_theme-monokai-dimmed,__lp_theme-monokai,__lp-pt-br_theme-monokai,__lp_theme-quietlight,__lp-pt-br_theme-quietlight,__lp_theme-red,__lp-pt-br_theme-red,__lp_theme-seti,__lp-pt-br_theme-seti,__lp_theme-solarized-dark,__lp-pt-br_theme-solarized-dark,__lp_theme-solarized-light,__lp-pt-br_theme-solarized-light,__lp_theme-tomorrow-night-blue,__lp-pt-br_theme-tomorrow-night-blue,__lp_typescript-basics,__lp-pt-br_typescript-basics,__lp_typescript-language-features,__lp-pt-br_typescript-language-features,__lp_vb,__lp-pt-br_vb,__lp_xml,__lp-pt-br_xml,__lp_yaml,__lp-pt-br_yaml</Tags>
+			<Categories>Language Packs</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.73.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="português (Brasil)" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/Microsoft/vscode-loc.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/Microsoft/vscode-loc/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/Microsoft/vscode-loc#readme" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			
+			<Icon>extension/languagepack.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/languagepack.png" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Code.Translation.PT-BR" Path="extension/translations/main.i18n.json" Addressable="true" />
+		</Assets>
+	</PackageManifest>

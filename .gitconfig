@@ -1,3 +1,8 @@
 [user]
-	email = pmanatan13@gmail.com
-	name = natan13vinicius
+	email = 103426213+Natan13vinicius@users.noreply.github.com
+	name = Natan-devfront
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
