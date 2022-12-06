@@ -419,8 +419,8 @@ body.dark-theme {
 /*=============== BUTTON ===============*/
 .button {
   display: inline-block;
-  background-color: RGB(184, 187, 199);
-  color: #fff;
+  background-color: white;
+  color: RGB(33, 34, 37);
   padding: 14px 28px;
   border-radius: .5rem;
   font-size: var(--normal-font-size);
@@ -642,7 +642,19 @@ body.dark-theme {
   transform: rotate(-180deg);
 }
 
+/* mudanca fonte value we give to you */
+.section__title {
+  color: RGB(31, 48, 114);
+}
+
 /*=============== CONTACT ===============*/
+
+/* mudanca natan cor do titulo contact */
+#contact-title {
+  color: RGB(26, 28, 35);
+}
+
+
 .contact__container {
   row-gap: 2rem;
 }
@@ -691,6 +703,7 @@ body.dark-theme {
   padding: 1.25rem .75rem;
   border-radius: .5rem;
   transition: .3s;
+
 }
 
 .contact__card-info {
@@ -705,7 +718,7 @@ body.dark-theme {
   background-color: var(--first-color-lighten);
   border-radius: 6px;
   font-size: 1.25rem;
-
+  color: black;
 }
 
 .contact__card-title {
@@ -722,7 +735,7 @@ body.dark-theme {
   width: 100%;
   border-radius: .25rem;
   background: var(--title-color);
-
+  color: white;
   font-weight: var(--font-semi-bold);
   box-shadow: none;
 }
@@ -742,10 +755,10 @@ body.dark-theme {
 }
 
 .subscribe__container {
-  background-color: rgb(243, 241, 241);
+  background-color: white;
   padding: 3rem 2rem;
   border-radius: 1.25rem;
-  border: 6px solid whitesmoke;
+  border: 6px solid white;
   text-align: center;
 }
 
@@ -765,6 +778,7 @@ body.dark-theme {
   border: 2px solid var(--title-color);
   background: var(--title-color);
   font-size: var(--small-font-size);
+  color: white;
 }
 
 .subscribe__button:hover {
@@ -774,6 +788,7 @@ body.dark-theme {
 /*=============== FOOTER ===============*/
 .footer__container {
   row-gap: 2.5rem;
+
 }
 
 .footer__logo {
@@ -796,6 +811,11 @@ body.dark-theme {
   font-weight: var(--font-medium);
 }
 
+/* mudanca natan cor da fonte footer description */
+.footer__description {
+  color: RGB(33, 34, 37);
+}
+
 .footer__content,
 .footer__links {
   display: grid;
@@ -804,6 +824,7 @@ body.dark-theme {
 .footer__content {
   grid-template-columns: repeat(2, max-content);
   gap: 2.5rem 4rem;
+
 }
 
 .footer__title {
@@ -850,18 +871,21 @@ body.dark-theme {
   flex-direction: column;
   text-align: center;
   row-gap: 1.5rem;
+
 }
 
 .footer__copy,
 .footer__privacy a {
   font-size: var(--smaller-font-size);
   font-weight: var(--font-medium);
-  color: var(--text-color);
+  color: RGB(33, 34, 37);
+
 }
 
 .footer__privacy {
   justify-content: center;
   column-gap: 1.25rem;
+
 }
 
 /*=============== SCROLL BAR ===============*/
